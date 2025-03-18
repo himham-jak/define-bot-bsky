@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@skyware/bot": "^0.3.11"
+    "@skyware/bot": "^0.3.11",
+    "typescript": "^5.8.2"
   }
 }
