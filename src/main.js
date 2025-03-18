@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 // import .env
 require('dotenv').config();
 function greeting(name) {

@@ -1,13 +1,15 @@
+import { Bot } from "@skyware/bot";
+
 // import .env
 require('dotenv').config()
 
-
 function greeting(name:string){
-	console.log(`Hello ${name}`);
+	return `Hello ${name}`;
 }
 
-greeting('You');
+greeting = greeting('Bluesky');
 
-console.log(process.env.BSKY_USERNAME)
-console.log(process.env.BSKY_PASSWORD)
-
+const post = await bot.post({
+	text: greeting
+});
+console.log(post.uri);
