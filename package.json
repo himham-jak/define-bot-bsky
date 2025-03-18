@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@skyware/bot": "^0.3.11"
+  }
+}
