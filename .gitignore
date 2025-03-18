@@ -5,10 +5,6 @@ logs
 # Dependency directories
 node_modules/
 
-# Packages
-package-lock.json
-package.json
-
 # Build output
 dist/
 build/

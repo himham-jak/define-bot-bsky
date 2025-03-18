@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "npx tsc src/main.ts && node src/main.js"
+  },
   "dependencies": {
     "@skyware/bot": "^0.3.11",
     "@types/node": "^22.13.10",
